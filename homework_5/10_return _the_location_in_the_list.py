@@ -12,3 +12,8 @@ lst = ["Jimmy", "Layla", "Bob"]
 for i in range(len(lst)):
     if lst[i] =="Bob":
         print(i)
+if "Bob" not in lst:
+    print(-1)
+    
+        
+

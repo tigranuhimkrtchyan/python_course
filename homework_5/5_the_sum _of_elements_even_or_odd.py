@@ -8,7 +8,7 @@
 # [] ➞ 'even'
 # [0, 1, 5] ➞ 'even'
 lst = [0,1,5]
-if sum(lst) % 2 == 1:
+if sum(lst) % 2:
     print("odd")
 else:
     print("even")

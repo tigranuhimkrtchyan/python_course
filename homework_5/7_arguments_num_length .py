@@ -7,8 +7,7 @@
 num = int(input("insert your number "))
 length = int(input("insert length "))
 mult = []
-i = 0
-while i < length:
+for i in range(0,length):
     mult.append(num*(i+1))
     i+=1
 print(mult)
