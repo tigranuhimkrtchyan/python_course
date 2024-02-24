@@ -10,8 +10,9 @@ word_builder(['b', 'e', 't', 'i', 'd', 'a'], [1, 4, 5, 0, 3, 2]) ➞ 'edabit'
 """
 letters = ['b', 'e', 't', 'i', 'd', 'a']
 position = [1, 4, 5, 0, 3, 2]
+position_tuple = tuple(position)
 word = ""
-for i in position:
+for i in position_tuple:
     new = letters[i]
     word += new
 print(word)

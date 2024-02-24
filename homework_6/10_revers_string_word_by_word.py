@@ -13,4 +13,4 @@ your reversed string should not contain leading or trailing spaces.
 # print(" ".join(revers_txt))
 txt = input("insetr your text ")
 reversed = ("").join(reversed(txt))
-print(reversed)
+print(reversed.strip())

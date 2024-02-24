@@ -16,12 +16,10 @@ is_harshad(89) ➞ False
 is_harshad(516) ➞ True
 is_harshad(200) ➞ True
 """
-num = input("Insert a number ")
-num_int = int(num)
+num = int(input("Insert a number "))
 sum = 0
-for i in num:
-    sum += int(i)    
-if num_int  % sum:
-    print("False")
-else:
-    print("true")
+rest_num = num
+while rest_num > 0:
+   sum += rest_num % 10 
+   rest_num //=10
+print(num % sum ==0 )

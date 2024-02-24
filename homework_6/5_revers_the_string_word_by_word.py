@@ -13,4 +13,5 @@ trailing spaces
 """
 txt = input("insert a text ")
 revers_txt = txt.split(' ') [::-1]
-print(" ".join(revers_txt))
+txt1 = " ".join (revers_txt)
+print(txt1.strip())
