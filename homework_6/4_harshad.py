@@ -16,10 +16,16 @@ is_harshad(89) ➞ False
 is_harshad(516) ➞ True
 is_harshad(200) ➞ True
 """
-num = int(input("Insert a number "))
+"""num = int(input("Insert a number "))
 sum = 0
 rest_num = num
 while rest_num > 0:
    sum += rest_num % 10 
    rest_num //=10
 print(num % sum ==0 )
+"""
+num =int(input("insert a number "))
+last_digit = num % 10
+midl_digit = num //10 %10
+first_digit = num //100
+print( num % (last_digit +  midl_digit + first_digit) ==0)
