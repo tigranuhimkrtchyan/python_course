@@ -11,5 +11,5 @@ set1 {10, 30}
 """
 set1 = {10, 20, 30}
 set2 = {20, 40, 50}
-dif = set1.difference(set2)
-print(dif)
+set1.difference_update(set2)
+print(set1)
