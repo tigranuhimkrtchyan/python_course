@@ -13,7 +13,4 @@ d = {
   "Student 2" : "Becky",
   "Student 3" : "John"
 }
-lst = []
-for i in d.values():
-    lst.append(i)
-print(sorted(lst))
+print(sorted(list(d.values())))
