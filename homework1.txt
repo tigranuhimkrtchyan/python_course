@@ -1,0 +1,69 @@
+$ history
+    1  pwd
+    2  whoami
+    3  ls
+    4  ls-l
+    5  ls -l
+    6  ls -la
+    7  cd D
+    8  ls -la
+    9  cd Desktop
+   10  pwd
+   11  ls -l
+   12  ls -la
+   13  mkdir test
+   14  mkrid test/dir1
+   15  mkdir test/dir1
+   16  cd test
+   17  mkdir dir1/dir2
+   18  touch newTxt.txt
+   19  touch new_Txt
+   20  touch new_Txt.txt
+   21  pwd
+   22  cd
+   23  ls
+   24  mkrid test/dir11
+   25  mkdir dir2/dir3
+   26  pwd
+   27  cd desktop
+   28  mkdir dir1/dir3
+   29  mkdir test/dir11
+   30  pwd
+   31  cd test
+   32  ls
+   33  cd dir2
+   34  cd dir11
+   35  touch new_Txt1.txt
+   36  cd ..
+   37  ls
+   38  pws
+   39  pwd
+   40  cd dir1
+   41  cd dir2
+   42  cd ..
+   43  pwd
+   44  cd ../..
+   45  pwd
+   46  man cd
+   47  man ls
+   48  man ls
+   49  man mkdir
+   50  Man mkdir
+   51  ls --help
+   52  ls -s
+   53  ls -la
+   54  cat newTxt.txt
+   55  nano new_txt.txt
+   56  echo "Hello" > new_Txt.txt
+   57  echo "Barev" > dir1/newTxt.txt
+   58  echo "Barev" >test/netTxt.txt
+   59  echo "Hello World" test/dir11/new_Txt1.txt
+   60  cat test/newTxt.txt
+   61  pwd
+   62  cd/test
+   63  cd test
+   64  cat newTxt.txt
+   65  nano newTxt.txt
+   66  nano netTxt.txt
+   67  nano "kukububu" >> netTxt.txt
+   68  history

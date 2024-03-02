@@ -13,4 +13,4 @@ d = {
   "Student 2" : "Becky",
   "Student 3" : "John"
 }
-print(sorted(list(d.values())))
+print(sorted(d.values()))
