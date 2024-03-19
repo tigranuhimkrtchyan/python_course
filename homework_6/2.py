@@ -58,8 +58,11 @@
 # s2 = set(lst2)
 # s3 = set(lst3)
 # print(sum(s1&s2&s3))
-lst = [1,2,3,4,5,6]
+# lst = [1,2,3,4,5,6]
 
-sum_odd = sum(i for i in lst if i%2 ==1)
-sum_even =sum(i for i in lst if i%2 ==0)
-print([sum_odd,sum_even])
+# sum_odd = sum(i for i in lst if i%2 ==1)
+# sum_even =sum(i for i in lst if i%2 ==0)
+# print([sum_odd,sum_even])
+# str1 = 'Ault\\'Kelly' 
+# str1 = 'Ault\'Kelly'
+print(-18 // 4)
