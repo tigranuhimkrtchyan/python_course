@@ -16,13 +16,12 @@ An empty list input [] should return an empty list [].
 def f(lst=[1,2,3,4,5]):
     accumulating_sum=[]
     summa = 0
-    def accumulate(lst):
-        for i in lst:
-            nonlocal summa
-            
+    def accumulate():
+        nonlocal summa
+        for i in lst:        
             summa +=i
             accumulating_sum.append(summa)
-            return accumulating_sum
+        return accumulating_sum
     return accumulate
 a = f()
 print(a())
