@@ -24,15 +24,14 @@ def count_datatypes(*args):
       return lst [0,0,0,0,0,0]
     
     for n in args:
-        if isinstance(n,int):
+        if isinstance(n,bool):
+            count_bool+=1
+        elif isinstance(n,int):
             count_int+=1
             
         elif isinstance(n,str):
-            count_str+=1
-         
-        elif isinstance(n,bool):
-            count_bool+=1
-          
+            count_str+=1     
+        
         elif isinstance(n,list):
             count_list+=1
           
