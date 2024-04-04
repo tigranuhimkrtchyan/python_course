@@ -1,14 +1,14 @@
 """
 Գրել դեկորատոր, որը ստուգում է, թե ինչ տիպի փոփոխական է վերադարձվում։
 """
-
-def dec(func):
-    def wrapper(*args,**kwargs):        
-        func(*args,**kwargs)
-        for i in args:
-            print(type(i))
+if __name__ == '__main__':
+    def dec(func):
+        def wrapper(*args,**kwargs):        
+            func(*args,**kwargs)
+            for i in args:
+             print(type(i))
         
-    return wrapper
+        return wrapper
 @dec
 def mmm(*args,**kwargs):
     print("type of variables")
