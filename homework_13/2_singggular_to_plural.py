@@ -14,8 +14,10 @@ Notes
 def pluralize(l):
     res =[]
     for i in l:
-        if l[i].count>1:
-            res.append(i)
+        if l.count(i)>1:
+            res.append(i+"s")
+        else:
+            res.append(i) 
     return res
-print(set(pluralize(["cow", "pig", "cow", "cow"])))
+print(set(pluralize(["table", "table", "table"])))
 
