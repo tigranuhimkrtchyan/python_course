@@ -22,15 +22,15 @@ class Employee:
     def __init__(self,first_name,last_name) -> None:
         self.first_name = first_name
         self.last_name = last_name
-    def fullname(self,first_name,last_name):
-        return f"{first_name} {last_name}"
-    def email(self,first_name,last_name):
-        return f"{first_name}.{last_name}@company.com" 
+    def fullname(self):
+        return f"{self.first_name} {self.last_name}"
+    def email(self):
+        return f"{self.first_name}.{self.last_name}@company.com" 
 emp_1 = Employee("John", "Smith")
 emp_2 = Employee("Mary",  "Sue")
 emp_3 = Employee("Antony", "Walker")
-print(emp_1.fullname)
+print(emp_1.fullname())
 
-print(emp_2.email)
+print(emp_2.email())
 
 print(emp_3.first_name)

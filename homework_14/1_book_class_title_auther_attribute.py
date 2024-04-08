@@ -34,11 +34,11 @@ class Book:
     def __init__(self,title,auther) -> None:
         self.title = title
         self.auther = auther
-    def __str__(self) -> str:
+    # def __str__(self) -> str:
 
-        def get_title():
-            return f"Tilte: {self.title}"
-        def get_auther():
+    def get_title(self):
+        return f"Tilte: {self.title}"
+    def get_auther(self):
             return f"Auther: {self.auther}"
 PP = Book('Pride and Prejudice','Jane Austen')
 HP = Book(' Hamlet','William Shakespeare')
@@ -46,4 +46,4 @@ WP = Book(' War and Peace','Leo Tolstoy ')
 print(HP.title)
 print(HP.auther)
 print(HP.get_title())
-print(HP.get_author())
+print(HP.get_auther())

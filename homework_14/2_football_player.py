@@ -23,14 +23,14 @@ class Player:
         self.age = age
         self.height = height
         self.weight = weight
-    def __str__(self) -> str:
+    # def __str__(self) -> str:
     
-        def get_age():
-            return f"{self.name} is age {self.age}"
-        def get_height():
-            return f"{self.name} is {self.height} cm"
-        def  get_weight():
-            return f"{self.name} weights {self.weight} kg"
+    def get_age(self):
+         return f"{self.name} is age {self.age}"
+    def get_height(self):
+        return f"{self.name} is {self.height} cm"
+    def  get_weight(self):
+        return f"{self.name} weights {self.weight} kg"
 p1 = Player("David Jones", 25, 175, 75)
 print(p1.get_age())
 print(p1.get_height()) 
