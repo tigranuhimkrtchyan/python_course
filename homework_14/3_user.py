@@ -23,6 +23,6 @@ class User:
        User.user_count += 1
 u1 = User("johnsmith10") 
 u2 = User("marysue1989")
-# u3 = User("milan_rodrick") 
+u3 = User("milan_rodrick") 
 print(User.user_count) 
     
