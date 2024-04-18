@@ -2,8 +2,8 @@
 def board():
     n = int(input("insert n "))
     board = []
-    for i in range(n):
-        row = []
+    row = []
+    for i in range(n):        
         for j in range(n):
             row.append('-')
             board.append(row)
